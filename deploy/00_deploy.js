@@ -13,7 +13,7 @@ const DEPLOYER_PRIVATE_KEY = network.config.accounts[0];
 async function callRpc(method, params) {
   var options = {
     method: "POST",
-    url: "https://wallaby.node.glif.io/rpc/v0",
+    url: "https://api.hyperspace.node.glif.io/rpc/v1",
     // url: "http://localhost:1234/rpc/v0",
     headers: {
       "Content-Type": "application/json",
@@ -40,17 +40,17 @@ module.exports = async ({ deployments }) => {
   console.log("Wallet Ethereum Address:", deployer.address);
 
   try {
-    // await deploy("CrypticVault", {
-    //   from: deployer.address,
+    await deploy("CrypticVault", {
+      from: deployer.address,
 
-    //   // since it's difficult to estimate the gas before f4 address is launched, it's safer to manually set
-    //   // a large gasLimit. This should be addressed in the following releases.
-    //   // since Ethereum's legacy transaction format is not supported on FVM, we need to specify
-    //   // maxPriorityFeePerGas to instruct hardhat to use EIP-1559 tx format
+      // since it's difficult to estimate the gas before f4 address is launched, it's safer to manually set
+      // a large gasLimit. This should be addressed in the following releases.
+      // since Ethereum's legacy transaction format is not supported on FVM, we need to specify
+      // maxPriorityFeePerGas to instruct hardhat to use EIP-1559 tx format
 
-    //   maxPriorityFeePerGas: priorityFee,
-    //   log: true,
-    // });
+      maxPriorityFeePerGas: priorityFee,
+      log: true,
+    });
 
     await deploy("CrypticAgreementFactory", {
       from: deployer.address,
