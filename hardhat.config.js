@@ -17,10 +17,6 @@ module.exports = {
       url: "https://api.hyperspace.node.glif.io/rpc/v1",
       accounts: [PRIVATE_KEY],
     },
-    // mumbai: {
-    //   url: `https://polygon-mumbai.g.alchemy.com/v2/${process.env.REACT_APP_ALCHEMY_KEY}`,
-    //   accounts: [PRIVATE_KEY],
-    // },
   },
   paths: {
     sources: "./contracts",
