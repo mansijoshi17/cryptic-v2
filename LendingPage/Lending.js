@@ -41,10 +41,10 @@ export default function Lending() {
     )} 0%, ${alpha(theme.palette.primary.dark, 0.24)} 100%)`,
   }));
   return (
-    <Fragment> 
-        <div className="container section-margin">
-          <div className="row">
-            {/* <div className="col-12">
+    <Fragment>
+      <div className="container section-margin">
+        <div className="row">
+          {/* <div className="col-12">
               <Modal
                 aria-labelledby="transition-modal-title"
                 aria-describedby="transition-modal-description"
@@ -78,110 +78,117 @@ export default function Lending() {
                 </div>
               </Modal>
             </div> */}
-            <div className="col-12 col-lg-12 col-md-12  ">
-              <h1 className="home-header-text">
-                Your <span style={{ color: "#6EBF8B" }}>Decentralized</span>{" "}
-                Digital Vault!
-              </h1>
-              <p className="home-body-text">
-                CrypticVault is a platform to store your data and give NFT
-                membership-based access to your vault near and dear ones.
-              </p>
-              <div className="watch-video-button mr-2">
-                <button className="enterBtn">Learn More</button>
-              </div>
+          <div className="col-12 col-lg-12 col-md-12  ">
+            <h1 className="home-header-text">
+              Privacy proof{" "}
+              <span style={{ color: "#6EBF8B" }}> eSignature, </span>{" "}
+              Decentralized{" "}
+              <span style={{ color: "#6EBF8B" }}> Digital Vault! </span>
+            </h1>
+            <p className="home-body-text">
+              Cryptic is perpetual data storage, management and privacy proof
+              multiuser eSignature Dapp
+            </p>
+            <div className="watch-video-button mr-2">
+              <button className="enterBtn">Learn More</button>
             </div>
-            {/* <div className="col-12 col-lg-5 col-md-5 home-top-image">
+          </div>
+          {/* <div className="col-12 col-lg-5 col-md-5 home-top-image">
               <img src={TopImage} alt="" height="auto" width="100%" />
             </div> */}
+        </div>
+      </div>
+
+      <div className="container-fluid bg-color-section-3 section-margin ">
+        <div className="row">
+          <div className="col-12 col-lg-6 text-center m-auto  ">
+            <h1
+              className="section-header-text mt-4 "
+              style={{ fontSize: "36px", fontWeight: "bold" }}
+            >
+              The <span style={{ color: "#6EBF8B" }}>Cryptic</span> Covers
+            </h1>
           </div>
         </div>
-
-        <div className="container-fluid bg-color-section-3 section-margin ">
-          <div className="row">
-            <div className="col-12 col-lg-6 text-center m-auto  ">
-              <h1
-                className="section-header-text mt-4 "
-                style={{ fontSize: "36px", fontWeight: "bold" }}
-              >
-                The <span style={{ color: "#6EBF8B" }}>Cryptic Vault </span>{" "}
-                Covers
-              </h1>
-            </div>
-          </div>
-          <div className="container  mt-5 mb-5 ">
-            {/* <div className="row">
+        <div className="container  mt-5 mb-5 ">
+          {/* <div className="row">
             </div> */}
-            <div className="row">
-              <div className="col-12 col-lg-4 col-md-4 mt-4">
-                <Features icon="ic:outline-add-to-drive" name="Drive" />
-              </div>
+          <div className="row">
+            <div className="col-12 col-lg-4 col-md-4 mt-4">
+              <Features
+                icon="lucide:clipboard-signature"
+                name="Multiuser eSignature"
+              />
+            </div>
 
-              <div className="col-12 col-lg-4 col-md-4 mt-4">
-                <Features icon="mdi:wallet-membership" name="NFT Memberships" />
-              </div>
+            <div className="col-12 col-lg-4 col-md-4 mt-4">
+              <Features icon="clarity:storage-line" name="Perpetual Storage" />
+            </div>
 
-              <div className="col-12 col-lg-4 col-md-4 mt-4">
-                <Features
-                  icon="icon-park-outline:permissions"
-                  name="Access Permission"
-                />
-              </div>
-              <div className="col-12 col-lg-4 col-md-4 mt-4">
-                <Features icon="icon-park-outline:notes" name="Notes" />
-              </div>
+            <div className="col-12 col-lg-4 col-md-4 mt-4">
+              <Features icon="mdi:wallet-membership" name="NFT Memberships" />
+            </div>
+            <div className="col-12 col-lg-4 col-md-4 mt-4">
+              <Features
+                icon="icon-park-outline:permissions"
+                name="Access Permission"
+              />
+            </div>
 
-              <div className="col-12 col-lg-4 col-md-4 mt-4">
-                <Features
-                  icon="icon-park-outline:mail"
-                  name="Encrypted Email"
-                />
-              </div>
+            <div className="col-12 col-lg-4 col-md-4 mt-4">
+              <Features icon="ic:baseline-add-to-drive" name="Drive" />
+            </div>
 
-              <div className="col-12 col-lg-4 col-md-4 mt-4">
-                <Features
-                  icon="icon-park-outline:lock"
-                  name="Censorship Resistance"
-                />
-              </div>
+            <div className="col-12 col-lg-4 col-md-4 mt-4">
+              <Features icon="icon-park-outline:notes" name="Notes" />
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="container-fluid  section-margin mb-5">
+      <div className="container-fluid  section-margin mb-5">
+        <div className="row">
+          <div className="col-12 col-lg-6 text-center m-auto  ">
+            <h1
+              className="section-header-text "
+              style={{ marginBottom: "90px" }}
+            >
+              How does it work ?
+            </h1>
+          </div>
+        </div>
+        <div className="col-8 m-auto">
           <div className="row">
-            <div className="col-12 col-lg-6 text-center m-auto  ">
-              <h1
-                className="section-header-text "
-                style={{ marginBottom: "90px" }}
-              >
-                How does it work ?
-              </h1>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Create Agreement with Signature</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Share link with the Members</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Members will sign the agreement</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">NFT Memberships</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Store encrypted files on IPFS</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token"> Add members</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Add Emergency Alert Message</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Assign Access Permissions</p>
+            </div>
+            <div className="col-12 col-lg-4 col-md-4">
+              <p className="section-token">Store encrypted Notes on IPFS</p>
             </div>
           </div>
-          <div className="col-8 m-auto">
-            <div className="row">
-              <div className="col-12 col-lg-4 col-md-4">
-                <p className="section-token">NFT Memberships</p>
-              </div>
-              <div className="col-12 col-lg-4 col-md-4">
-                <p className="section-token">Store encrypted files on IPFS</p>
-              </div>
-              <div className="col-12 col-lg-4 col-md-4">
-                <p className="section-token"> Add members</p>
-              </div>
-              <div className="col-12 col-lg-4 col-md-4">
-                <p className="section-token">Assign Access Permissions</p>
-              </div>
-              <div className="col-12 col-lg-4 col-md-4">
-                <p className="section-token">Store encrypted Notes on IPFS</p>
-              </div>
-              <div className="col-12 col-lg-4 col-md-4">
-                <p className="section-token">Store encrypted Emails on IPFS</p>
-              </div>
-            </div>
-          </div>
-        </div> 
+        </div>
+      </div>
     </Fragment>
   );
 }
