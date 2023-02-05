@@ -25,11 +25,11 @@
 
 4. Persistent storage & Perpetual storage: Physical copy of data may get lost or damaged due to any reason but data stored on IPFS and Pinned using Filecoin are totally secure and everlasting. Even if the big bang happens on eath, data on the File coin will be accessible from other planets through satellite node which Protocol Labs team is planning :)
 
-### Contract on Filecoin Virtual Machine:
+### Contracts on Filecoin Virtual Machine:
 
-**1) Cryptic Contract :** https://explorer.glif.io/address/0xe8B699840a81cfC5228958612D3A34F36B415f2b/?network=hyperspacenet
+**1) Cryptic Agreement Contract :** https://explorer.glif.io/address/0x9fB5823006B53BfB3E315A20AC269EF1Fa60F5f5/?network=hyperspacenet
 
-**2) Cryptic Agreement Contract :** https://explorer.glif.io/address/0x9fB5823006B53BfB3E315A20AC269EF1Fa60F5f5/?network=hyperspacenet
+**2) Cryptic Vault Contract :** https://explorer.glif.io/address/0xe8B699840a81cfC5228958612D3A34F36B415f2b/?network=hyperspacenet
 
 
 ## It includes:
