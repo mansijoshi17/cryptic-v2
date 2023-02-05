@@ -36,17 +36,33 @@
 
 **1) Sign In with Admin and Member:** Admin can create token from sign with admin which will be used for membership. and in login with member, member can login with admin address which will check that member have that admin's nft or not.
 
+<img width="1440" alt="Screenshot 2023-02-05 at 6 50 13 PM" src="https://user-images.githubusercontent.com/54347081/216821725-25f8fd0e-592f-495d-aeb0-7b4326f79207.png">
+
 **1) Crypic Sign to Agreements:** User can add agreements with sign placeholders and then can share the link with the member of that agreement. Only added whitelisted members will be able to access the link. Members will sign the agreement using that sharabale link.
+
+<img width="1440" alt="Screenshot 2023-02-05 at 6 46 38 PM" src="https://user-images.githubusercontent.com/54347081/216821833-112f78a9-fa4f-47ae-93d1-f1d1223bed55.png">
+
+<img width="1440" alt="Screenshot 2023-02-05 at 6 53 45 PM" src="https://user-images.githubusercontent.com/54347081/216821853-8592c989-83bc-4001-a1c9-103bb1d1f5bb.png">
 
 **3) Decentralized Encrypted Perpetual Storage :** In Drive we can store different type of file which will stored encrypted on IPFS.
 
+<img width="1440" alt="Screenshot 2023-02-05 at 6 44 31 PM" src="https://user-images.githubusercontent.com/54347081/216821883-97550906-be14-4aa6-89e0-b9ca4eeaaaec.png">
+
 **4) Members:** Add Members to give access of your digital vault.
+
+<img width="1434" alt="Screenshot 2023-02-05 at 6 45 06 PM" src="https://user-images.githubusercontent.com/54347081/216821916-50f7d724-6784-4fe7-971d-234585b12c62.png">
 
 **5) Emergency Alert:** Set Emergency alert email message to notify the member about access permission.
 
+<img width="1440" alt="Screenshot 2023-02-05 at 6 45 25 PM" src="https://user-images.githubusercontent.com/54347081/216821939-cb8bc515-df12-4372-b302-b11e362b9a16.png">
+
 **6) Access Permission:** There are three ways to give access permission. 1) Give access right away which will transfer token and send email to the particular member right away 2) Emergency Transfer is set number of days the when transfer should be executed, if admin is not active from defined days. 3) On selected date is token should be transfered on particular date.
 
+<img width="1440" alt="Screenshot 2023-02-05 at 6 45 43 PM" src="https://user-images.githubusercontent.com/54347081/216821969-d7f8a916-a069-4201-9fd8-b372c0b918ef.png">
+
 **7) Encrypted Notes:** In notes, added notes will be stored encrypted on IPFS.
+
+<img width="1440" alt="Screenshot 2023-02-05 at 6 46 11 PM" src="https://user-images.githubusercontent.com/54347081/216821987-eb8a7d9c-88e6-4aba-81cd-a9cf0a05344f.png">
 
 ### Filecoin Virtual Machine
 
