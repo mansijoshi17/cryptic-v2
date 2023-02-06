@@ -98,6 +98,13 @@ module.exports = {
 
 ```
 
+### LightHouse
+
+https://github.com/mansijoshi17/cryptic-v2/blob/master/lighthouse.md
+
+### Spheron 
+
+https://github.com/mansijoshi17/cryptic-v2/blob/master/spheron.md
 
 
 
