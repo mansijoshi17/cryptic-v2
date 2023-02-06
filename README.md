@@ -1,4 +1,6 @@
-## Cryptic : Privacy proof eSignature, Decentralized Digital Vault! 
+## Cryptic : Privacy proof eSignature, Decentralized Digital Vault!
+
+![MicrosoftTeams-image (70)](https://user-images.githubusercontent.com/54347081/216899865-a67a3649-06fc-4e62-ad5f-b87af1c5b50b.png)
 
 ## Cryptic is perpetual data storage, management and privacy proof multiuser eSignature Dapp
 
@@ -17,7 +19,7 @@
 
 ### What problem we are solving:
 
-1. Currently we are using docusign to sign agreements digitally. But in that users personal data gets stored on the centrealised database. So here we have build cryptic sign which totally decentralised. User can add agreements with sign placeholders and then can share the link with the member of that agreement. Only added whitelisted members will be able to access the link. Members will sign the agreement using that sharabale link.
+1. Currently we are using docusign to sign agreements digitally. But in that users personal data and agreements gets stored on the centrealised database. So here we have built cryptic sign which totally decentralised. User can add agreements with sign placeholders and then can share the link with the member of that agreement. Only added whitelisted members will be able to access the link. Members will sign the agreement using that sharabale link.
 
 2. If something happens to a person or in case of death families are not aware of a) How much crypto person is having and especially how to get access to it b) Millions of dollars worth of insurance are unclaimed because families don't know if there was any medical insurance or life insurance. c) Property will deed etc
 
@@ -30,7 +32,6 @@
 **1) Cryptic Agreement Contract :** https://explorer.glif.io/address/0x9fB5823006B53BfB3E315A20AC269EF1Fa60F5f5/?network=hyperspacenet
 
 **2) Cryptic Vault Contract :** https://explorer.glif.io/address/0xe8B699840a81cfC5228958612D3A34F36B415f2b/?network=hyperspacenet
-
 
 ## It includes:
 
@@ -154,7 +155,6 @@ module.exports = {
   }
 
 ```
-
 
 ```
 
